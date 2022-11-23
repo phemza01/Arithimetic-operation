@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Arithemetic operators</h1>
+    <h2 style="text-align: center;">let A=12 and  B=2</h2>
+    <div class="continuation" style="text-align: center;">
+    <button onclick="division()" id="div">division</button><br><br>
+    <button onclick="multiplication()" id="multiply">multiplication</button><br><br>
+    <button onclick="modulus()" id="modu">modulus</button><br><br>
+    <button onclick="exponential()" id="expo">exponential</button><br><br>
+    <button onclick="addition()" id="sum">Addition</button><br><br>
+    
+
+</div>
+</body>
+
+<script>
+
+let value1 = document.getElementById('sum')
+function addition(){
+        let a =12;
+        let b =2;
+        let c = a+b
+        value1.innerHTML = c;
+    }
+
+    let value2 = document.getElementById('div')
+function division(){
+        let a =12;
+        let b =2;
+        let c = a/b
+        value2.innerHTML = c;
+    }
+
+    let value3 = document.getElementById('multiply')
+function multiplication(){
+        let a =12;
+        let b =2;
+        let c = a*b
+        value3.innerHTML = c;
+    }
+
+    let value4 = document.getElementById('expo')
+function exponential(){
+        let a =12;
+        let b =2;
+        let c = a**b
+        value4.innerHTML = c;
+    }
+
+    let value5 = document.getElementById('modu')
+function modulus(){
+        let a =12;
+        let b =2;
+        let c = a%b
+        value5.innerHTML = c;
+    }
+    
+    
+
+    
+</script>
+</html>
